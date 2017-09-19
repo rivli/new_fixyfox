@@ -1,0 +1,97 @@
+html,body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+}
+
+.header {
+  width: 100%;
+  border-bottom: 1px solid rgb(52, 160, 193);
+}
+
+.messageshow {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    widht: 100;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    z-index: 100000;
+}
+
+.content {
+  margin-left: 20%;
+  width: 60%;
+  line-height: 1.6em;
+  font-size: 19px;
+}
+
+.menu {
+  margin-left: 20%;
+  width: 60%;
+}
+
+.menuAnchor:first-child {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+.menuAnchor {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 17px;
+  color: rgb(65, 65, 65);
+  padding: 5px;
+}
+
+.menuAnchor:hover {
+    color:rgb(31, 182, 33);
+}
+
+
+.dayQuote {
+  display: none;
+
+}
+
+.friendBlock {
+  width: 10%;
+  display: inline-block;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.friendLogo {
+  border-radius: 50%;
+  display: block;
+  width: 100%;
+}
+
+.friendName {
+  display: block;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: normal;
+}
+
+
+.addGoal {
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 50%;
+  position: fixed;
+  left: 10px;
+  top:40%;
+  background: rgba(98, 98, 98, 0.68);
+
+}
+
+.atricleTitle {
+  text-align: center;
+}
